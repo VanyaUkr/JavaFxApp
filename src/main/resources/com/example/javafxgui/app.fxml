@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxgui.ImageController">
+    <AnchorPane fx:id="anchorPane" layoutY="97.0" prefHeight="303.0" prefWidth="700.0" style="-fx-background-color: fafafa;">
+        <Label fx:id="label1" layoutX="222.0" layoutY="22.0" prefHeight="22.0" prefWidth="270.0" text="You are successfully logged in!" textAlignment="CENTER">
+            <font>
+                <Font name="American Typewriter" size="18.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="129.0" fitWidth="209.0" layoutX="46.0" layoutY="14.0" preserveRatio="true">
+            <Image url="file:/Users/vanyayamtsun/Documents/Programming/Test%20(education)/JavaFXgui/src/main/java/assets/1046678_barista_coffee_shop_sign_icon.png" />
+        </ImageView>
+        <ImageView fitHeight="107.0" fitWidth="113.0" layoutX="542.0" layoutY="25.0" preserveRatio="true">
+            <Image url="file:/Users/vanyayamtsun/Documents/Programming/Test%20(education)/JavaFXgui/src/main/java/assets/3671744_coffee_icon.png" />
+        </ImageView>
+    </AnchorPane>
+    <Label layoutX="281.0" layoutY="34.0" text="COFFEE_13" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font name="AppleMyungjo Regular" size="32.0" />
+        </font>
+    </Label>
+</AnchorPane>
